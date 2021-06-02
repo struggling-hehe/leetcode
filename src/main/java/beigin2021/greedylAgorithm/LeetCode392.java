@@ -1,10 +1,9 @@
 package beigin2021.greedylAgorithm;
 
-import javax.swing.plaf.SliderUI;
 
 /**
- * @author jiexipeng
- * @date 2021/06/01
+ *  判断子序列
+ *
  */
 public class LeetCode392 {
 
