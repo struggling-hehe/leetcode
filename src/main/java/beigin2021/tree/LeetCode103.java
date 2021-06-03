@@ -29,53 +29,36 @@ import java.util.*;
  */
 
 public class LeetCode103 {
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> li = new LinkedList<List<Integer>>();
-        if (root == null) {
-            return li;
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        List<List<Integer>> list = new ArrayList<List<Integer>>();
+        if(root == null){
+            return list;
         }
-        List<Integer> list = new LinkedList<Integer>();
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        Stack<TreeNode> stack = new Stack<TreeNode>();
-
         queue.add(root);
-        TreeNode q = null;
-        TreeNode index = root;
-        Boolean is = false;
-        while (!queue.isEmpty() || !stack.isEmpty()) {
-            TreeNode p;
-            if (is && !stack.isEmpty()) {
-                p = stack.pop();
-                if (p.left != null) {
+        boolean is = true;
+        while (queue.isEmpty()){
+            List<Integer> li = new ArrayList<Integer>();
+            int count = queue.size();
+            for (int i =0;i<count;i++){
+                TreeNode p = queue.poll();
+                if (is){
+                    li.add(p.val);
+                }else {
+                    li.add(0,p.val);
+                }
+                if (p.left != null){
                     queue.add(p.left);
-                    q = p.left;
                 }
-                if (p.right != null) {
-                    queue.add(p.right);
-                    q = p.right;
+                if (p.right != null){
+                    queue.add(p.reight);
                 }
             }
-            if (!is && !queue.isEmpty()) {
-                p = queue.poll();
-                if (p.left != null) {
-                    stack.push(p.left);
-                    q = p.left;
-                }
-                if (p.right != null) {
-                    stack.push(p.right);
-                    q = p.right;
-                }
-            }
-
-            list.add(p.val);
-            if (index == p) {
-                li.add(list);
-                list = new LinkedList<Integer>();
-                index = q;
-                is = !is;
-            }
+            list.add(li);
+            is = !is;
         }
-        return li;
+        return list;
     }
-
+    
+    
 }
