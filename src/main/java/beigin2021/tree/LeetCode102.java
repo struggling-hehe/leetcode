@@ -28,36 +28,36 @@ import java.util.Queue;
  */
 public class LeetCode102 {
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> li = new LinkedList<List<Integer>>();
-        if (root == null) {
-            return li;
-        }
-        List<Integer> list = new LinkedList<Integer>();
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        queue.add(root);
-        TreeNode q = null;
-        TreeNode index = root;
-        while (!queue.isEmpty()) {
-            TreeNode p = queue.poll();
-            list.add(p.val);
-            if (p.left != null) {
-                queue.add(p.left);
-                q = p.left;
-            }
-            if (p.right != null) {
-                queue.add(p.right);
-                q = p.right;
-            }
-
-            if (index == p) {
-                li.add(list);
-                list = new LinkedList<Integer>();
-                index = q;
-            }
-        }
-        return li;
-    }
+//    public List<List<Integer>> levelOrder(TreeNode root) {
+//        List<List<Integer>> li = new LinkedList<List<Integer>>();
+//        if (root == null) {
+//            return li;
+//        }
+//        List<Integer> list = new LinkedList<Integer>();
+//        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+//        queue.add(root);
+//        TreeNode q = null;
+//        TreeNode index = root;
+//        while (!queue.isEmpty()) {
+//            TreeNode p = queue.poll();
+//            list.add(p.val);
+//            if (p.left != null) {
+//                queue.add(p.left);
+//                q = p.left;
+//            }
+//            if (p.right != null) {
+//                queue.add(p.right);
+//                q = p.right;
+//            }
+//
+//            if (index == p) {
+//                li.add(list);
+//                list = new LinkedList<Integer>();
+//                index = q;
+//            }
+//        }
+//        return li;
+//    }
 
 }
 
