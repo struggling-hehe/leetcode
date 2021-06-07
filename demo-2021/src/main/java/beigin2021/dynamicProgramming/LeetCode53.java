@@ -1,21 +1,25 @@
 package main.java.beigin2021.dynamicProgramming;
 
 /**
- * @author jiexipeng
+ * 给定一个整数数组 nums ，
+ * 找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
  * @date 2021/06/04
  */
+
 public class LeetCode53 {
 
-    public static int method(int arr[]) {
-        int maxCount = 0;
-        for (int i = 0; i < arr.length; i++) {
-            maxCount = maxCount + arr[i];
-            if (maxCount < 0) {
-                maxCount = maxCount - maxCount;
+    public static int method(int nums[]) {
+        int num = nums[0];
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (count <= 0) {
+                count = nums[i];
+            } else {
+                count += nums[i];
             }
+            num = Math.max(num, count);
         }
-        System.out.println(maxCount);
-        return 1;
+        return num;
     }
 
     public static void main(String[] args) {
