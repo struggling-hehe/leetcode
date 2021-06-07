@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="454722f2-97a6-4a1b-a81a-fbc8ad81efed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/dynamicProgramming/LeetCode53.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/dynamicProgramming/LeetCode53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode121.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode121.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/demo-2021/main/java/beigin2021/dynamicProgramming/LeetCode53.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-2021/main/java/beigin2021/dynamicProgramming/LeetCode53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo-2021/main/java/beigin2021/greedylAgorithm/LeetCode121.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-2021/main/java/beigin2021/greedylAgorithm/LeetCode121.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,20 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/leetCode120.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,15 +59,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/packageInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/GreedylInfo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -99,11 +77,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/dynamicProgramming/LeetCode53.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="294">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="26" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode121.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="80" column="28" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="62" column="47" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode122.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -111,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-213">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="-186">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -131,6 +136,7 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/beigin2021/leetCode120.java" />
         <option value="$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/dynamicProgramming/LeetCode53.java" />
+        <option value="$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode121.java" />
       </list>
     </option>
   </component>
@@ -210,6 +216,16 @@
               <item name="beigin2021" type="462c0819:PsiDirectoryNode" />
               <item name="dynamicProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-2021" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beigin2021" type="462c0819:PsiDirectoryNode" />
+              <item name="greedylAgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -239,7 +255,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode53 (1)">
+  <component name="RunManager" selected="Application.LeetCode121">
+    <configuration name="LeetCode121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.beigin2021.greedylAgorithm.LeetCode121" />
+      <module name="demo-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.beigin2021.greedylAgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode53 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.beigin2021.dynamicProgramming.LeetCode53" />
       <module name="demo-2021" />
@@ -307,6 +336,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode121" />
         <item itemvalue="Application.LeetCode53 (1)" />
         <item itemvalue="Application.leetCode120 (1)" />
         <item itemvalue="Application.leetCode120" />
@@ -321,7 +351,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5694000" />
+    <option name="totallyTimeSpent" value="10055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,21 +366,21 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2725322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2725322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.27261463" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.27261463" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="IvyIDEA" order="8" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.15737298" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.15241636" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.27261463" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32961586" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32961586" />
@@ -403,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode121.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/dynamicProgramming/packageInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -435,13 +458,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode123.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode122.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
@@ -489,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="-186">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -515,10 +531,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode122.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/dynamicProgramming/LeetCode53.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="294">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-2021/src/main/java/beigin2021/greedylAgorithm/LeetCode121.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="28" />
         </state>
       </provider>
     </entry>
