@@ -1,6 +1,5 @@
 package main.java.beigin2021.greedylAgorithm;
 
-import org.omg.CORBA.INTERNAL;
 
 /**
  * 买卖股票的最佳时机
@@ -30,9 +29,6 @@ public class LeetCode121 {
      * 输出：0
      * 解释：在这种情况下, 没有交易完成, 所以最大利润为 0。
      * <p>
-     * 来源：力扣（LeetCode）
-     * 链接：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock
-     * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
     // 时间复杂度太高了，，，重新想想吧，
     public static int maxProfit1(int prices[]) {
@@ -47,17 +43,6 @@ public class LeetCode121 {
                 }
                 max = Math.max(max, index);
             }
-        }
-        System.out.println(max);
-        return max;
-    }
-
-    public static int maxProfit2(int prices[]) {
-        int max = 0;
-        int count = 0;
-        int index = 0;
-        for (int i = 0; i < prices.length; i++) {
-
         }
         System.out.println(max);
         return max;
